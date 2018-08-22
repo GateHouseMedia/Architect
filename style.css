@@ -1,0 +1,341 @@
+/*
+* Theme Name: Architect
+* Description: A digital storytelling tool from de//space
+* Author: GateHouse Media
+* Version: 1.0
+* Template: gatehouse_projects
+*/
+
+a:hover {
+	text-decoration: none !important;
+}
+
+.entry-content {
+	padding: 0px;
+}
+
+#captionbox {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 12px;
+    padding: 10px 75px 0px 50px;
+}
+
+#share-links-container{
+	display: none !important;
+}
+
+.river-nav {
+	position: fixed;
+	padding-top: 18px;
+	padding-bottom: 11px;
+	width: 100%;
+	text-align: center;
+	background-color:rgba(0,0,0,.6);
+	color: #fff;
+	z-index: 10;
+}
+.river-nav ul, .river-nav-branding {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+.river-nav-branding, .river-nav li a, .river-nav li a:active, .river-nav li a:visited {
+	display: inline;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Adamina';
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+	color: #D3D3d3 !important;
+	text-decoration: none;
+	padding-bottom:10px;
+}
+
+.river-nav-active, .river-nav li a:hover {
+  	background-image: linear-gradient(to right, currentColor 100%, transparent .001%);
+  	background-position: 0 20px;
+  	background-repeat: repeat-x;
+  	background-size: 2px 1px;
+}
+
+.river-hero {
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.river-hed {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+}
+
+.river-hed h1 {
+	font-family: 'Adamina';
+	font-size: 50px;
+	color: rgba(255,255,255,.8);
+	letter-spacing: 8px;
+	text-align:center;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+.river-hed p {
+	font-family: 'Adamina';
+	font-size: 15px;
+	letter-spacing: 8px;
+	color: rgba(255,255,255,.6);
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -15px;
+}
+
+figcaption {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.image-caption {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.image-caption-hero {
+	margin-left: 25px;
+}
+
+.gallery-panel {
+	position: sticky;
+	top: 100px;
+}
+
+.image-panel img {
+	width: 100%;
+}
+
+.image-panel figcaption {
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+.body-leadin h1 {
+	font-family: 'Adamina';
+	font-weight: 200;
+	font-size: 30px;
+	line-height: 1.5;
+	margin-left: 10%;
+}
+
+.project-leadin {
+	font-family: 'Adamina';
+	font-weight: 200;
+	font-size: 30px;
+	line-height: 1.5;
+	margin-left: 10%;
+	width: 80%;
+	text-align: center;
+}
+
+.body-byline p{
+	font-family: 'Adamina';
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	margin-left: 10%;
+}
+
+.body-copy {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.body-copy p{
+	font-family: 'Adamina';
+	line-height: 2;
+	font-size:15px;
+}
+
+.gallery-head {
+	font-family: 'Roboto';
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+.gallery-body {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.despace-ad img {
+	width: 100%;
+	height: auto;
+}
+
+.river-nav-branding {
+	float: left;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color: none !important;
+}
+
+.sticky {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 75px;
+}
+
+.balance-text {
+	text-wrap: balance;
+}
+
+.full-width-image {
+	width: 100vw;
+}
+
+.full-width-image img {
+	width: 100%;
+}
+
+.image > img {
+	width: 100%;
+}
+
+.subscribe-text {
+	font-family: 'Adamina';
+    font-size: 16px;
+    max-width: 60%;
+    line-height: 1.5;
+}
+
+.pullquote h1:before {
+    content: '\201c';
+    font-size: 65px;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -20px;
+    color: #d1d1d1;
+}
+
+.pullquote h1 {
+    font-family: 'Adamina';
+    font-weight: 300;
+    font-size: 25px;
+    color: #666666;
+    max-width: 60%;
+    line-height: 1.5;
+}
+
+.pullquote p {
+	font-size: 16px;
+	font-family:'Adamina';
+    color: #666666;
+}
+
+.pullquote-share {
+	font-family: 'Adamina';
+	text-transform: uppercase;
+	color: #d1d1d1;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+
+.pullquote a {
+    color: #666666;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+.full-width-text {
+	font-family: 'Adamina';
+	margin-bottom: 60px;
+}
+
+.full-width-text p {
+	width: 70%;
+    margin-left: 15%;
+    line-height: 2.3;
+    text-align: center;
+}
+
+.full-width-text h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.ad-billboard {
+	display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+.customHTML {
+	margin-right: 20px;
+}
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+@media screen and (max-width: 960px) {
+	.river-hed h1 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.river-nav ul {
+		line-height: 2;
+	}
+	.river-nav-branding {
+		padding-top: 4px;
+	}
+	.subscribe-text {
+		font-size: 14px;
+		margin-left: 10%;
+	}
+}
+
+@media screen and (max-width:780px) {
+	.pullquote h1 {
+		letter-spacing: .3px;
+    	max-width: 85%;
+    	margin-left: 10%;
+    	line-height: 1.5;
+	}
+	.pullquote-share {
+		margin-left: 10%;
+	}
+	.full-width-text h1 {
+		text-align: left;
+		font-size: 35px;
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	.full-width-text p {
+		text-align: left;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.project-leadin {
+		font-size: 22px;
+		text-align: left;
+	}
+	.customHTML {
+		margin: 20px;
+	}
+}
