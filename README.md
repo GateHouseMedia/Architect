@@ -10,13 +10,12 @@ This repo is for people who really want to customize Architect to create amazing
 
 Our WordPress instances are hosted using WPEngine. You can use this theme by downloading it, making your customizations and uploading it into the WordPress editor. For access to SFTP, contact the innovation team.
 
+You may also want to check out MAAMP or a similar solution to mess around locally.
+
 ### About the files
 
 The important Architect magic is mainly contained to header.php and /inc/child_widgets.php
-
-```
-examples
-```
+These two files are heavily commented to explain what each function does. The key is pulling the Google Analytics and DFP tags out of newspaper.com and turning them into WordPress variables.
 
 ## Authors
 
@@ -25,7 +24,9 @@ examples
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Acknowledgments
 
