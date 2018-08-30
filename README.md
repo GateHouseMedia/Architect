@@ -30,5 +30,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Acknowledgments
 
-* Kudos to Rob and John from Eugene for the final push to get this project open-sourced. 
+* Kudos to [Rob](https://github.com/robertdenton) and [John](https://github.com/jheasly) from [Eugene](https://github.com/registerguard) for the final push to get this project open-sourced. 
 
