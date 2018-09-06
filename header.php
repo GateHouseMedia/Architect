@@ -21,24 +21,25 @@
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-K8ZD4NR');</script>
+})(window,document,'script','dataLayer','YOUR-AD-TAG-HERE');</script>
 <!-- End Google Tag Manager -->
 <?php wp_head(); ?>
 <?php 
 global $post;
 $GLOBALS['ghDomain'] = 'http://gatehouseprojects.com';
-$GLOBALS['ghAnalytics'] = "ga('create', 'UA-6842750-1', {'name':'firstTracker',});
-	ga('create', 'UA-51861146-1', {'name':'secondTracker',});
-	ga('create', 'UA-37024380-19', {'name':'fourthTracker',});
+$GLOBALS['ghAnalytics'] = "ga('create', 'YOUR-AD-TAG-HERE', {'name':'firstTracker',});
+	ga('create', 'YOUR-AD-TAG-HERE', {'name':'secondTracker',});
+	ga('create', 'YOUR-AD-TAG-HERE', {'name':'fourthTracker',});
 	ga('firstTracker.send', 'pageview');
 	ga('secondTracker.send', 'pageview');
 	ga('fourthTracker.send', 'pageview');";
+// Next line replaces an empty logo variable with GateHouse -- change as needed
 $GLOBALS['ghLogo'] = "GateHouse Media";
 $shareLink = get_permalink();
 $pageSlug = $post->post_name;
 global $wp_query;
 
-// The following is the call to the GateHouse site-data.js to process the necessary variables.
+// The following is the call to the GateHouse site-data.js to process the necessary variables. If you're non-GateHouse, feel free to delete this section or replace the URL + JSON unfurl with a similar page hosted on your own newspaper website.
 
 if(isset($wp_query->query_vars['site'])) {
 	if(!empty($wp_query->query_vars['site'])) {
@@ -66,10 +67,10 @@ if(isset($wp_query->query_vars['site'])) {
 			echo "<script>var $ = jQuery;</script>";
 		}
 		if(isset($json->{'3rdPartyData'}->analytics->google->ua)) {
-			$GLOBALS['ghAnalytics'] = "ga('create', 'UA-6842750-1', {'name':'firstTracker',});
-			ga('create', 'UA-51861146-1', {'name':'secondTracker',});
+			$GLOBALS['ghAnalytics'] = "ga('create', 'YOUR-GA-TAG', {'name':'firstTracker',});
+			ga('create', 'YOUR-GA-TAG', {'name':'secondTracker',});
 			ga('create', '{$json->{'3rdPartyData'}->analytics->google->ua}', {'name':'thirdTracker',});
-			ga('create', 'UA-37024380-19', {'name':'fourthTracker',}); 
+			ga('create', 'YOUR-GA-TAG', {'name':'fourthTracker',}); 
 			ga('firstTracker.send', 'pageview'); 
 			ga('secondTracker.send', 'pageview');
 			ga('thirdTracker.send', 'pageview'); 
@@ -105,7 +106,7 @@ wp_reset_query();
 
 <body <?php body_class(); ?>>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8ZD4NR"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=YOUR-GA-TAG"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <div id="page" class="site">
