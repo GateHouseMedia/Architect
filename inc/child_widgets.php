@@ -42,6 +42,8 @@ class Architect_DFP_Leaderboard_Ad extends WP_Widget {
 	 * @param array $args     Widget arguments.
 	 * @param array $instance Saved values from database.
 	 */
+	
+	// NOTE: Non-GateHouse will want to carefully look at that addScript() function since it uses some GateHouse-standard classes for the ads. Replace with your own values as necessary.
 	public function widget( $args, $instance ) {
             ?>
             <div class="ad ad-billboard ad-lazy text-center" data-gh-lazy-ad-bucket-targeting='{"ad-type":"standard","slot":"View Plus Leaderboard","sov":"base ROS"}' data-dimensions="[[728,90],[970,90]]" data-size-mapping="baseLeaderboard" data-gh-lazy-ad-loaded="false"></div>
